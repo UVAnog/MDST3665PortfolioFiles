@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Contact us form Using HTML and CSS</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4>Poe's Site</h4>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="./home.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <form action="https://formspree.io/f/moqpyber" method="POST">
+      <div class="wrapper">
+        <div class="title">
+          <h1>Contact Poe</h1>
+        </div>
+        <div class="contact-form">
+          <div class="input-fields">
+            <input type="text" class="input" placeholder="Your Name" required />
+            <input
+              type="text"
+              class="input"
+              placeholder="Email Address"
+              required
+            />
+            <input type="text" class="input" placeholder="Phone Number" />
+            <input type="text" class="input" placeholder="Subject" />
+          </div>
+          <div class="msg">
+            <textarea placeholder="Send Poe a Message" required></textarea>
+            <div class="btn">send</div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
